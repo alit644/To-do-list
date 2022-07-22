@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #36BBE0;
+}
+.big-container{
+    background-color: #303C42;
+    width: 50vw;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 10px;
+
+        background: rgba( 48, 60, 66, 0.95 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 30px;
+}
+ 
+ .big-container h1{
+    margin-bottom: 50px;
+    font-size: 4rem;
+}
+
+@media (max-width: 667px) {
+    .big-container h1{
+        font-size: 2.5rem;
+    }
+    #btn {
+        margin-bottom: 20px;
+    }
+    .big-container{
+        width: 90%;
+    }
+    }
+
+form{
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(137, 132, 132);
+}
+form input {
+    padding: 10px 20px;
+    width: 25vw;
+    font-size: 21px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+}
+
+button {
+    all: unset;
+}
+
+form button{
+    background-color: #36BBE0;
+    padding: 13px;
+    position: relative;
+    top: -3px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.task{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+    background: rgba( 48, 60, 66, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(34, 37, 76, 0.37);
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.small-task{
+    display: flex;
+
+}
+.icon-circle{
+    margin-right: 20px;
+}
+.icon-circle, .icon-trash-o, .icon-check-circle{
+    font-size: 27px;
+    color: rgb(182, 172, 172);
+    cursor: pointer;
+}
+
+.icon{
+    color: white;
+}
+
+.finish{
+    text-decoration-line: line-through;
+}
+
+.display{
+    display: none;
+}
+
+.btns{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.btns .red{
+    background-color: #303C42;
+    padding: 13px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.addClass{
+    background-color: #A8A4CE;
+}
+
+.problem{
+    border-bottom: 1px solid;
+}
+.pro{
+    background-color: #303C42;
+    padding: 40px;
+    color: white;
+    font-size: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba( 48, 60, 66, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 18px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: none;
+}
+.pro p {
+    background-color: #303C42;
+    padding: 30px;
+    border-radius: 10px;
+    border-bottom: 2px solid white;
+
+}
+.pro-disp{
+    display: block;
+}
